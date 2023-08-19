@@ -1,0 +1,1 @@
+const solution = n => n / 7 > 0 ? Math.ceil(n / 7) : 1;

@@ -1,0 +1,1 @@
+const solution = (myString, n) => [...myString].map(v => v.repeat(n)).join('');

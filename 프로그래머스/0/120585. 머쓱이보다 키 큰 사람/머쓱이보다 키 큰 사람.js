@@ -1,6 +1,6 @@
 const solution = (array, height) => {
-    const sorted = array.sort((a, b) => b - a);
     let count = 0;
-    while (count < sorted.length && sorted[count] > height) count++;
+    for (let i = 0; i < array.length; i++) 
+        if (array[i] > height) count++;
     return count;
 }

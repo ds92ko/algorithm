@@ -1,5 +1,1 @@
-const solution = array => {
-    const sorted = array.sort((a, b) => a - b);
-    
-    return sorted[~~(sorted.length / 2)];
-}
+const solution = array => array.sort((a, b) => a - b)[~~(array.length / 2)];

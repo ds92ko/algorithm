@@ -1,1 +1,1 @@
-const solution = (numbers, num1, num2) => numbers.slice(Math.min(num1, num2), Math.max(num1, num2) + 1);
+const solution = (numbers, num1, num2) => numbers.slice(num1, num2 + 1);

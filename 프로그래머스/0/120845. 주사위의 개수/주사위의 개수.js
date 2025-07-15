@@ -1,4 +1,1 @@
-const solution = (box, n) => {
-    const [w, d, h] = box;
-    return ~~(w / n) * ~~(d / n) * ~~(h / n);
-}
+const solution = ([w, d, h], n) => ~~(w / n) * ~~(d / n) * ~~(h / n);

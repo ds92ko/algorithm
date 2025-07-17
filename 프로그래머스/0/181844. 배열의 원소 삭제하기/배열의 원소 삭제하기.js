@@ -1,0 +1,1 @@
+const solution = (arr, delete_list) => arr.map(item => delete_list.includes(item) ? null : item).filter(Boolean);

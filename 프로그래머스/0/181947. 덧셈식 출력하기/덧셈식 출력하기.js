@@ -10,5 +10,5 @@ rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
     const [a, b] = input;
-    console.log(`${+a} + ${+b} = ${+a + +b}`);
+    console.log(`${a} + ${b} = ${+a + +b}`);
 });

@@ -1,5 +1,3 @@
-const toNumber = char => char.charCodeAt(0) - 96;
-
 const solution = string => [...string]
-    .map(str => toNumber(str) < toNumber('l') ? 'l' : str)
+    .map(str => str.charCodeAt(0) < 'l'.charCodeAt(0) ? 'l' : str)
     .join('');

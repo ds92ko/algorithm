@@ -1,0 +1,1 @@
+const solution = arr => arr.flatMap(n => Array(n).fill(n));

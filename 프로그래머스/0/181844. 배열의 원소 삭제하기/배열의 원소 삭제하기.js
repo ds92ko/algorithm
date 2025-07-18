@@ -1,1 +1,1 @@
-const solution = (arr, delete_list) => arr.filter(item => delete_list.includes(item) ? null : item)
+const solution = (arr, delete_list) => arr.filter(item => delete_list.includes(item) ? null : item);

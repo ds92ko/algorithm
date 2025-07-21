@@ -1,1 +1,1 @@
-const solution = (my_string, k) => Array(k).fill(my_string).join('');
+const solution = (my_string, k) => my_string.repeat(k);

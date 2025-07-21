@@ -1,0 +1,1 @@
+const solution = order => [...String(order)].filter(num => +num && !(+num % 3)).length;

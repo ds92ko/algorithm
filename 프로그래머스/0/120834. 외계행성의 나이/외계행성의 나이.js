@@ -1,0 +1,1 @@
+const solution = age => [...String(age)].map(num => String.fromCharCode(+num + 97)).join('');

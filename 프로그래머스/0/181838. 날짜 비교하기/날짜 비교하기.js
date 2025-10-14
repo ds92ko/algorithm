@@ -1,1 +1,1 @@
-const solution = (date1, date2) => Number(new Date(date1.join('-')) < new Date(date2.join('-')))
+const solution = (date1, date2) => Number(new Date(date1) < new Date(date2))

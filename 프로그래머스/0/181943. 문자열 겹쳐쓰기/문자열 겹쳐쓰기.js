@@ -1,0 +1,1 @@
+const solution = (str, overwrite, s) => `${str.slice(0, s)}${overwrite}${str.slice(s + overwrite.length)}`

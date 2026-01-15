@@ -1,0 +1,1 @@
+const solution = emergency => emergency.map(value => [...emergency].sort((a, b) => b - a).findIndex(v => v === value) + 1);
